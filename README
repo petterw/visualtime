@@ -14,6 +14,7 @@ Add a line to xmobar.hs:
     xmproc2 <- spawnPipe "/usr/bin/xmobar ~/.xmobarrc2"
 Create a line in the commands section of ~/.xmobarrc2:
     , Run Com "/usr/bin/python" ["/path/to/visualtime.py"] "visualtime" 1000
+Add %visualtime% to the template in .xmobarrc2
 Restart xmonad
 
 Screenshot (60 day view abbreviated):
